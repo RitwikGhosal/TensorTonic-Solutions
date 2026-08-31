@@ -16,7 +16,7 @@ This repository contains my personal solutions to these problems, automatically 
 Verified machine learning implementations completed on [TensorTonic](https://www.tensortonic.com).
 
 <p align="center">
-  <img src="https://www.tensortonic.com/api/badge/ritwikghosal1999.svg" alt="TensorTonic Verified Solutions" width="100%" />
+  <img src="https://www.tensortonic.com/api/badge/bogada.svg" alt="TensorTonic Verified Solutions" width="100%" />
 </p>
 
 | Problem | Description | Link |
@@ -44,8 +44,9 @@ Verified machine learning implementations completed on [TensorTonic](https://www
 | RMSProp Optimizer (Single Update Step) | Implement one RMSProp update in NumPy using an exponential squared-gradient average and adaptive scaling. | https://www.tensortonic.com/problems/rmsprop-optimizer |
 | Implement Sigmoid in NumPy | Implement a vectorized sigmoid activation in NumPy for scalars, lists, vectors, and matrices, including large positive and negative inputs. | https://www.tensortonic.com/problems/sigmoid-numpy |
 | Implement Softmax Function | Implement numerically stable softmax by shifting logits before exponentiation and normalizing probabilities. | https://www.tensortonic.com/problems/softmax-function |
+| Implement Swish Activation | Apply the Swish activation element-wise by multiplying each input by its sigmoid value. | https://www.tensortonic.com/problems/swish-activation |
 | Implement Tanh Activation | Implement the hyperbolic tangent activation element-wise with outputs bounded between minus one and one. | https://www.tensortonic.com/problems/tanh-activation |
 | Xavier Initialization | Scale raw weights into the Xavier uniform range using a bound derived from fan-in and fan-out. | https://www.tensortonic.com/problems/xavier-initialization |
 
-View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/ritwikghosal1999)
+View my verified ML profile: [TensorTonic profile](https://www.tensortonic.com/profile/bogada)
 <!-- tensortonic:end -->
