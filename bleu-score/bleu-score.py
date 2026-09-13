@@ -10,17 +10,17 @@ def bleu_score(candidate: list, reference: list, max_n: int) -> float:
     c = len(candidate)
     r = len(reference)
     if c <= r:
-        bp = math.exp(1 - (r/c))
+        bp = math.exp(1 - r/c)
     else:
         bp = 1.0
     precisions = []
-    for n in range(1, max_n + 1):
+    for n in range(1, max_n+1):
         cand_ngrams = []
-        for i in range(len(candidate)- n +1):
+        for i in range(len(candidate) - n + 1):
             cand_ngrams.append(tuple(candidate[i:i+n]))
         ref_ngrams = []
-        for i in range(len(reference)- n +1):
-            ref_ngrams.append(tuple(reference[i:i+n]))
+        for i in range(len(reference) - n + 1):
+            ref_ngrams.append(tuple(reference[i: i+n]))
         if len(cand_ngrams) == 0:
             precisions.append(0.0)
             continue 
